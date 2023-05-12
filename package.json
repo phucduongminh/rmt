@@ -10,16 +10,22 @@
     "test": "jest"
   },
   "dependencies": {
+    "@react-native-community/async-storage": "^1.12.1",
+    "@react-native-community/masked-view": "^0.1.11",
     "@react-navigation/native": "^6.1.6",
     "@react-navigation/native-stack": "^6.9.12",
     "jest-jasmine2": "^29.5.0",
+    "postcss": "^8.4.23",
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-native": "^0.71.7",
     "react-native-gesture-handler": "^2.9.0",
     "react-native-safe-area-context": "^4.5.2",
     "react-native-screens": "^3.20.0",
     "react-navigation": "^4.4.4",
-    "react-navigation-stack": "^2.10.4"
+    "react-navigation-stack": "^2.10.4",
+    "styled-components": "^6.0.0-rc.1",
+    "styled-tools": "^1.7.2"
   },
   "devDependencies": {
     "@babel/core": "^7.21.8",
