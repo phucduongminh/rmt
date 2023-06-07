@@ -29,7 +29,7 @@ export default function Routes() {
       />
 
       <Stack.Navigator
-        initialRouteName="Devices"
+        initialRouteName="Brands"
         screenOptions={{
           headerStyle: {
             elevation: 0,

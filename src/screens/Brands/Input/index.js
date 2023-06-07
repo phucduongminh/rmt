@@ -12,7 +12,7 @@ export default function Input () {
       <Field
         value={value}
         onChangeText={text => setValue(text)}
-        placeholder='Digite a marca'
+        placeholder='Input a brand'
       />
     </Container>
   )

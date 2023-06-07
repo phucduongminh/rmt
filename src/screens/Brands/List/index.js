@@ -6,7 +6,9 @@ import Ripple from 'C:/Users/84373/Videos/Nodejs/ReactNative2023/rmt/src/compone
 import { Container, Content, Name } from './styled'
 
 const data = [
-  { id: 1, name: 'Samsung' }
+  { id: 1, name: 'Samsung' },
+  { id: 2, name: 'Sony' },
+  { id: 3, name: 'Panasonic' }
 ]
 
 export default function List ({ handleNavigate }) {

@@ -14,7 +14,7 @@ const data = [
   },
   {
     id: 2,
-    name: 'Ar conditioner',
+    name: 'Air conditioner',
     gradient: ['#eb3349', '#f45c43']
   },
   {

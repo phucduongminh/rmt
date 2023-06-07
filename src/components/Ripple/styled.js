@@ -18,7 +18,7 @@ export const Container = styled.View`
   `)}
 `
 
-export const Button = styled.TouchableNativeFeedback.attrs(({ theme }) => ({
+export const Button = styled(TouchableNativeFeedback).attrs(({ theme }) => ({
   background: TouchableNativeFeedback.Ripple(theme.colors.ripple, true),
   useForeground: true
 }))``
