@@ -8,7 +8,6 @@ export default function Input () {
   return (
     <Container>
       <Icon />
-      
       <Field
         value={value}
         onChangeText={text => setValue(text)}

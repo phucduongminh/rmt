@@ -1,7 +1,7 @@
 import React from 'react'
 import t from 'prop-types'
 
-import Ripple from 'C:/Users/84373/Videos/Nodejs/ReactNative2023/rmt/src/components/Ripple'
+import Ripple from '../../../components/Ripple'
 
 import { Container, Content, Name } from './styled'
 

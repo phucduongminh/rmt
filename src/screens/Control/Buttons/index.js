@@ -3,7 +3,7 @@ import t from 'prop-types'
 import Icon from 'react-native-vector-icons/Feather'
 import { ThemeContext } from 'styled-components'
 
-import Ripple from 'C:/Users/84373/Videos/Nodejs/ReactNative2023/rmt/src/components/Ripple'
+import Ripple from '../../../components/Ripple'
 
 import {
   Wrapper,
@@ -17,6 +17,7 @@ const size = 56
 
 export function Button ({ icon, label, onPress }) {
   const theme = useContext(ThemeContext)
+  const color = icon === 'power' ? theme.colors.danger : theme.colors.text
 
   return (
     <Ripple
@@ -26,7 +27,7 @@ export function Button ({ icon, label, onPress }) {
       onPress={onPress}
     >
       <Wrapper>
-        {icon && <Icon name={icon} size={20} color={theme.colors.text} />}
+        {icon && <Icon name={icon} size={20} color={color} />}
         {label && <Label>{label}</Label>}
       </Wrapper>
     </Ripple>
