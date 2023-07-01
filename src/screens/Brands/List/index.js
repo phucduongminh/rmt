@@ -3,6 +3,8 @@ import t from 'prop-types'
 
 import Ripple from '../../../components/Ripple'
 
+//import Ripple from '../../components/Ripple'
+
 import { Container, Content, Name } from './styled'
 
 const data = [
